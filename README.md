@@ -18,8 +18,8 @@ Thanks for visiting, and let’s build something amazing!
 - and much more to come!
 
 ## Knowledgeable in: 
-- Cloud Platform: AWS Cloud ☁️
-- CI/CD Tool: Jenkins ∞
+- ☁️ Cloud Platform: AWS Cloud 
+- ∞ CI/CD Tool: Jenkins 
 - Build Tool: Maven
 - Containerization Tool: Docker 🐳
 - Container Management Tool: Kubernetes
@@ -31,4 +31,8 @@ Thanks for visiting, and let’s build something amazing!
 - Operating System: Windows, Linux 🐧
 - Coding Language: Python 🐍
 
+## I also enjoy life. In my spare time, you can find me:
+- 🎸Playing Guitar (Perfomed in Concerts)
+- 🧗🏻‍♀️Hiking (Nature's Best Friend)
+- 🏊Swimming (Junior Aquaman)
 
