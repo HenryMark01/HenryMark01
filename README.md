@@ -1,7 +1,7 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Henry
+Hi there, I'm Henry! ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 =============================================================================================================================
 
-Hi, I'm Henry Tharan, a Cloud Engineer with a passion for building secure, scalable, and efficient cloud infrastructures. My journey began in system administration, where I honed my skills in managing on-premises and virtualized environments. Over time, I discovered the power of cloud technologies and transitioned into AWS and automation.
+A creative Cloud Engineer with a passion for building secure, scalable, and efficient cloud infrastructures. My journey began in system administration, where I honed my skills in managing on-premises and virtualized environments. Over time, I discovered the power of cloud technologies and transitioned into AWS and automation.
 
 I specialize in creating CI/CD pipelines, automating workflows, and optimizing infrastructure using tools like Jenkins, Docker, Kubernetes, and AWS. I have documented my recent projects below, so feel free to check it out.
 
