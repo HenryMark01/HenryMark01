@@ -18,18 +18,18 @@ Thanks for visiting, and let’s build something amazing!
 - and much more to come!
 
 ## Knowledgeable in: 
-- ☁️ Cloud Platform: AWS Cloud 
+- ☁️Cloud Platform: AWS Cloud 
 - ∞ CI/CD Tool: Jenkins 
-- Build Tool: Maven
-- Containerization Tool: Docker 🐳
-- Container Management Tool: Kubernetes
-- Source Code Management: Git
-- Infrastructure as Code (IaC) Tool: Ansible, Terraform 🏗
-- Security Tool: OWASP Dependency Check, Trivy
-- Artifact Management Tool: Nexus3
-- Code Quality Check Tool: Sonarqube
-- Operating System: Windows, Linux 🐧
-- Coding Language: Python 🐍
+- 🛠️Build Tool: Maven
+- 🐳Containerization Tool: Docker 
+- ☸Container Management Tool: Kubernetes
+- 🦊Source Code Management: Git
+- 🏗Infrastructure as Code (IaC) Tool: Ansible, Terraform 
+- 🔐Security Tool: OWASP Dependency Check, Trivy
+- 📜Artifact Management Tool: Nexus3
+- 👨‍💻Code Quality Check Tool: Sonarqube
+- 🐧Operating System: Windows, Linux 
+- 🐍Coding Language: Python 
 
 ## I also enjoy life. In my spare time, you can find me:
 - 🎸Playing Guitar (Perfomed in Concerts)
