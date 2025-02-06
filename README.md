@@ -1,4 +1,4 @@
-Hi there, I'm Henry! ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
+Hi there, I'm Henry!
 =============================================================================================================================
 
 A creative Cloud Engineer with a passion for building secure, scalable, and efficient cloud infrastructures. My journey began in system administration, where I honed my skills in managing on-premises and virtualized environments. Over time, I discovered the power of cloud technologies and transitioned into AWS and automation.
