@@ -32,7 +32,7 @@ Thanks for visiting, and let’s build something amazing!
 - 🐍Coding Language: Python 
 
 ## I also enjoy life. In my spare time, you can find me:
-- 🎸Playing Guitar (Perfomed in Concerts)
+- 🎸Playing Guitar & Singing (Perfomed in Concerts)
 - 🧗🏻‍♀️Hiking (Nature's Best Friend)
 - 🏊Swimming (Junior Aquaman)
 
