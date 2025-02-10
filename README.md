@@ -13,6 +13,7 @@ Thanks for visiting, and let’s build something amazing!
 
 - Cloud-Native CICD Pipeline Automation: BoardGame Web Hosting. [Link](https://github.com/HenryMark01/Boardgame)
 - Building a Serverless Web Application. [Link](https://github.com/HenryMark01/AWS-Projects/tree/main/Cloud%20Based%20e-book%20Delivery%20Solution)
+- Creating your own VPC and 3 Tier Application. [Link](https://github.com/HenryMark01/Three-Tier-Application-on-AWS)
 - Automated CI/CD Pipeline with Ansible and Kubernetes (Containerization). [Link](https://github.com/HenryMark01/kubernetes_project)
 - Serverless Email Marketing App. [Link](https://github.com/HenryMark01/AWS-Projects/tree/main/Serverless%20Email%20Marketing%20App)
 - and much more to come!
