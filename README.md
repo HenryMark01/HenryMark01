@@ -10,7 +10,9 @@ As I continue to grow in this dynamic field, I’m committed to continuous learn
 Thanks for visiting, and let’s build something amazing!
 
 ## Below are some of my recent projects:
-
+- Kubernetes manifests to deploy architecture on AWS EKS. [Link](https://github.com/HenryMark01/kubernetes-aws-eks)
+- AWS Architecture Deployment with Terraform. [Link](https://github.com/HenryMark01/terraform-architecture-aws)
+- AWS Architecture Deployment with Terraform. [Link](https://github.com/HenryMark01/terraform-architecture-aws)
 - Cloud-Native CICD Pipeline Automation: BoardGame Web Hosting. [Link](https://github.com/HenryMark01/Boardgame)
 - Building a Serverless Web Application. [Link](https://github.com/HenryMark01/AWS-Projects/tree/main/Cloud%20Based%20e-book%20Delivery%20Solution)
 - Distributed Load Testing on AWS. [Link](https://github.com/HenryMark01/distributed-load-testing-aws)
