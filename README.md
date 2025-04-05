@@ -23,7 +23,7 @@ Thanks for visiting, and let’s build something amazing!
 - Cloud-Native CICD Pipeline Automation: BoardGame Web Hosting. [Link](https://github.com/HenryMark01/Boardgame)
 - Automated CI/CD Pipeline with Ansible and Kubernetes (Containerization). [Link](https://github.com/HenryMark01/kubernetes_project)
 ### AI Projects
-- Blog Generator using GenAI (Amazon Bedrock)
+- Blog Generator using GenAI (Amazon Bedrock). [Link](https://github.com/HenryMark01/lambda-bedrock/tree/main)
 
 ## Knowledgeable in: 
 - ☁️Cloud Platform: AWS Cloud 
