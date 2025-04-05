@@ -11,15 +11,20 @@ Thanks for visiting, and let’s build something amazing!
 
 ## Below are some of my recent projects:
 
-- Kubernetes manifests to deploy architecture on AWS EKS. [Link](https://github.com/HenryMark01/kubernetes-aws-eks)
+## Cloud Projects
 - AWS Architecture Deployment with Terraform. [Link](https://github.com/HenryMark01/terraform-architecture-aws)
-- Cloud-Native CICD Pipeline Automation: BoardGame Web Hosting. [Link](https://github.com/HenryMark01/Boardgame)
 - Building a Serverless Web Application. [Link](https://github.com/HenryMark01/AWS-Projects/tree/main/Cloud%20Based%20e-book%20Delivery%20Solution)
 - Distributed Load Testing on AWS. [Link](https://github.com/HenryMark01/distributed-load-testing-aws)
 - Server Migration from GCP to AWS. [Link](https://github.com/HenryMark01/gcp-to-aws-cloud-migration)
 - Creating your own VPC and 3 Tier Application. [Link](https://github.com/HenryMark01/Three-Tier-Application-on-AWS)
-- Automated CI/CD Pipeline with Ansible and Kubernetes (Containerization). [Link](https://github.com/HenryMark01/kubernetes_project)
 - Serverless Email Marketing App. [Link](https://github.com/HenryMark01/AWS-Projects/tree/main/Serverless%20Email%20Marketing%20App)
+## DevOps Projects
+- Kubernetes manifests to deploy architecture on AWS EKS. [Link](https://github.com/HenryMark01/kubernetes-aws-eks)
+- Cloud-Native CICD Pipeline Automation: BoardGame Web Hosting. [Link](https://github.com/HenryMark01/Boardgame)
+- Automated CI/CD Pipeline with Ansible and Kubernetes (Containerization). [Link](https://github.com/HenryMark01/kubernetes_project)
+## AI Projects
+
+
 - and much more to come!
 
 ## Knowledgeable in: 
