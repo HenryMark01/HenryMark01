@@ -1,15 +1,36 @@
 Hi there, I'm Henry!
 =============================================================================================================================
 
-A creative Cloud Engineer with a passion for building secure, scalable, and efficient cloud infrastructures. My journey began in system administration, where I honed my skills in managing on-premises and virtualized environments. Over time, I discovered the power of cloud technologies and transitioned into AWS and automation.
+Cloud Engineer based in Malaysia, building and running AWS infrastructure for enterprise customers. I started in system administration, managing on-premises and virtualized environments, then moved into AWS and automation.
 
-I specialize in creating CI/CD pipelines, automating workflows, and optimizing infrastructure using tools like Jenkins, Docker, Kubernetes, and AWS. I have documented my recent projects below, so feel free to check it out.
+Day to day I work on multi-account landing zones, hybrid networking (Transit Gateway, FortiGate, site-to-site VPN), Active Directory on AWS, centralized monitoring and security, and everything delivered as code with AWS CDK and Terraform through CI/CD pipelines.
 
-As I continue to grow in this dynamic field, I’m committed to continuous learning and innovation. If you’re interested in discussing cloud solutions or just want to chat about tech, feel free to reach out!
+I'm always learning. If you want to talk cloud architecture, networking or automation, feel free to reach out on [LinkedIn](https://linkedin.com/in/henrytharan).
 
-Thanks for visiting, and let’s build something amazing!
+## ⭐ Featured: Production Work
 
-## Below are some of my recent projects:
+Real systems I designed and delivered, sanitized for public sharing.
+
+### [AWS Multi-Account Landing Zone](https://github.com/HenryMark01/aws-multi-account-landing-zone)
+Hub-and-spoke landing zone for 9 business units across 20 AWS accounts, built with AWS CDK (Python).
+- Transit Gateway shared through RAM, FortiGate HA cluster terminating IPSec VPN from branch offices
+- CloudFront + Global and Regional WAF in front of centralized public ALBs
+- Shared services: Active Directory, private DNS, SIEM gateway
+- Cross-account monitoring hub with CloudWatch OAM, auto-discovery Lambda and dynamic alarms
+- Review-gated pipelines per account: synth, diff, drift check, manual approval
+
+<a href="https://github.com/HenryMark01/aws-multi-account-landing-zone"><img src="https://raw.githubusercontent.com/HenryMark01/aws-multi-account-landing-zone/main/docs/images/architecture.png" width="800" alt="Multi-account landing zone architecture"></a>
+
+### [Secure Edge-to-Cloud File Ingestion](https://github.com/HenryMark01/secure-edge-to-cloud-ingest)
+Moves files from remote Windows sites into AWS **without any AWS credentials on the site PCs**.
+- Windows agent uploads through short-lived S3 presigned URLs from API Gateway + Lambda
+- Every file is malware scanned with ClamAV, then delivered to a private server through SSM (no SSH)
+- Cross-region CI/CD builds, configures and signs the Windows installer automatically
+- Replaced a v1 design that shipped long-lived IAM keys on every PC
+
+<a href="https://github.com/HenryMark01/secure-edge-to-cloud-ingest"><img src="https://raw.githubusercontent.com/HenryMark01/secure-edge-to-cloud-ingest/main/docs/images/architecture.png" width="800" alt="Secure file ingestion architecture"></a>
+
+## Other Projects
 
 ### Cloud Projects
 - AWS Architecture Deployment with Terraform. [Link](https://github.com/HenryMark01/terraform-architecture-aws)
@@ -25,22 +46,21 @@ Thanks for visiting, and let’s build something amazing!
 ### AI Projects
 - Blog Generator using GenAI (Amazon Bedrock). [Link](https://github.com/HenryMark01/lambda-bedrock/tree/main)
 
-## Knowledgeable in: 
-- ☁️Cloud Platform: AWS Cloud 
-- ∞ CI/CD Tool: Jenkins 
-- 🛠️Build Tool: Maven
-- 🐳Containerization Tool: Docker 
-- ☸Container Management Tool: Kubernetes
-- 🦊Source Code Management: Git
-- 🏗Infrastructure as Code (IaC) Tool: Ansible, Terraform 
-- 🔐Security Tool: OWASP Dependency Check, Trivy
-- 📜Artifact Management Tool: Nexus3
-- 👨‍💻Code Quality Check Tool: Sonarqube
-- 🐧Operating System: Windows, Linux 
-- 🐍Coding Language: Python 
+## Knowledgeable in:
+- ☁️ Cloud Platform: AWS (multi-account with AWS Organizations)
+- 🌐 Networking: VPC, Transit Gateway, RAM, VPC Endpoints, Route 53, FortiGate HA, Site-to-Site VPN
+- 🏗 Infrastructure as Code: AWS CDK (Python), Terraform, CloudFormation, Ansible
+- ∞ CI/CD: AWS CodePipeline / CodeBuild, GitHub Actions, Jenkins
+- 🔐 Security: AWS WAF, IAM cross-account roles, Secrets Manager, ClamAV, OWASP Dependency Check, Trivy, SonarQube
+- 📊 Monitoring: CloudWatch (OAM, alarms, dashboards), SNS, EventBridge
+- 🪟 Identity: Active Directory on AWS, Entra Connect
+- 🐳 Containers: Docker, Kubernetes, Amazon EKS
+- 🛠️ Build & Artifacts: Maven, Nexus3
+- 🦊 Source Code Management: Git
+- 🐧 Operating Systems: Windows Server, Linux
+- 🐍 Languages: Python, PowerShell, Bash
 
 ## I also enjoy life. In my spare time, you can find me:
-- 🎸Playing Guitar & Singing (Perfomed in Concerts)
-- 🧗🏻‍♀️Hiking (Nature's Best Friend)
-- 🏊Swimming (Junior Aquaman)
-
+- 🎸 Playing Guitar & Singing (Performed in Concerts)
+- 🧗🏻‍♀️ Hiking (Nature's Best Friend)
+- 🏊 Swimming (Junior Aquaman)
