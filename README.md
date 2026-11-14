@@ -30,6 +30,15 @@ Moves files from remote Windows sites into AWS **without any AWS credentials on 
 
 <a href="https://github.com/HenryMark01/secure-edge-to-cloud-ingest"><img src="https://raw.githubusercontent.com/HenryMark01/secure-edge-to-cloud-ingest/main/docs/images/architecture.png" width="800" alt="Secure file ingestion architecture"></a>
 
+### [LiteLLM AI Gateway on AWS](https://github.com/HenryMark01/litellm-ai-gateway-aws)
+Self-hosted AI gateway giving teams one OpenAI-compatible endpoint for Amazon Bedrock, OpenAI and Anthropic, built with Terraform.
+- ECS Fargate (gateway, backend, admin UI) with PostgreSQL and Redis, behind an ALB
+- Cross-account Bedrock access through an assumed IAM role, no provider keys needed
+- Model routing, retries and prompt caching from an S3-hosted config, secrets in Secrets Manager
+- Bootstrap stage for state and least-privilege deploy policies, plus Checkov, smoke and integration test scripts
+
+<a href="https://github.com/HenryMark01/litellm-ai-gateway-aws"><img src="https://raw.githubusercontent.com/HenryMark01/litellm-ai-gateway-aws/main/docs/images/architecture.png" width="800" alt="LiteLLM AI gateway architecture"></a>
+
 ## Other Projects
 
 ### Cloud Projects
@@ -50,11 +59,12 @@ Moves files from remote Windows sites into AWS **without any AWS credentials on 
 - ☁️ Cloud Platform: AWS (multi-account with AWS Organizations)
 - 🌐 Networking: VPC, Transit Gateway, RAM, VPC Endpoints, Route 53, FortiGate HA, Site-to-Site VPN
 - 🏗 Infrastructure as Code: AWS CDK (Python), Terraform, CloudFormation, Ansible
+- 🤖 AI Platform: LiteLLM, Amazon Bedrock, OpenAI and Anthropic APIs
 - ∞ CI/CD: AWS CodePipeline / CodeBuild, GitHub Actions, Jenkins
-- 🔐 Security: AWS WAF, IAM cross-account roles, Secrets Manager, ClamAV, OWASP Dependency Check, Trivy, SonarQube
+- 🔐 Security: AWS WAF, IAM cross-account roles, Secrets Manager, ClamAV, Checkov, OWASP Dependency Check, Trivy, SonarQube
 - 📊 Monitoring: CloudWatch (OAM, alarms, dashboards), SNS, EventBridge
 - 🪟 Identity: Active Directory on AWS, Entra Connect
-- 🐳 Containers: Docker, Kubernetes, Amazon EKS
+- 🐳 Containers: Docker, Kubernetes, Amazon EKS, ECS Fargate
 - 🛠️ Build & Artifacts: Maven, Nexus3
 - 🦊 Source Code Management: Git
 - 🐧 Operating Systems: Windows Server, Linux
