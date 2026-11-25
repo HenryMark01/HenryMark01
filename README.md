@@ -39,6 +39,15 @@ Self-hosted AI gateway giving teams one OpenAI-compatible endpoint for Amazon Be
 
 <a href="https://github.com/HenryMark01/litellm-ai-gateway-aws"><img src="https://raw.githubusercontent.com/HenryMark01/litellm-ai-gateway-aws/main/docs/images/architecture.png" width="800" alt="LiteLLM AI gateway architecture"></a>
 
+### [Immutable Multi-Vault Backup on AWS](https://github.com/HenryMark01/aws-immutable-backup-vault-lock)
+Ransomware-resistant backups with AWS Backup Vault Lock, built with Terraform.
+- Daily, weekly and monthly vaults locked in Compliance mode (WORM), so nobody can delete a backup early
+- Customer-managed KMS key per region, every recovery point copied to a locked vault in a second region
+- Backup plans pick EC2, EBS, S3, RDS and Aurora by type and tag
+- EventBridge alerts on failed jobs and on any attempt to change a lock or delete a recovery point
+
+<a href="https://github.com/HenryMark01/aws-immutable-backup-vault-lock"><img src="https://raw.githubusercontent.com/HenryMark01/aws-immutable-backup-vault-lock/main/docs/images/architecture.png" width="800" alt="Immutable backup architecture"></a>
+
 ## Other Projects
 
 ### Cloud Projects
@@ -61,7 +70,7 @@ Self-hosted AI gateway giving teams one OpenAI-compatible endpoint for Amazon Be
 - 🏗 Infrastructure as Code: AWS CDK (Python), Terraform, CloudFormation, Ansible
 - 🤖 AI Platform: LiteLLM, Amazon Bedrock, OpenAI and Anthropic APIs
 - ∞ CI/CD: AWS CodePipeline / CodeBuild, GitHub Actions, Jenkins
-- 🔐 Security: AWS WAF, IAM cross-account roles, Secrets Manager, ClamAV, Checkov, OWASP Dependency Check, Trivy, SonarQube
+- 🔐 Security: AWS WAF, AWS Backup Vault Lock, KMS, IAM cross-account roles, Secrets Manager, ClamAV, Checkov, OWASP Dependency Check, Trivy, SonarQube
 - 📊 Monitoring: CloudWatch (OAM, alarms, dashboards), SNS, EventBridge
 - 🪟 Identity: Active Directory on AWS, Entra Connect
 - 🐳 Containers: Docker, Kubernetes, Amazon EKS, ECS Fargate
